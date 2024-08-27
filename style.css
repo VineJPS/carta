@@ -10,18 +10,18 @@ body{
 }
 
 .container{
-    width: 400px;
-    height: 400px;
-    margin: auto;
+    width: 80%;
+    height: 800px;
     padding: 20px;
     background: white;
     border-radius: 30px;
     padding-top: 50px;
+    margin-top: 100px;
 }
 
 #sim{
-    height: 40px;
-    width: 70px;
+    height: 50px;
+    width: 80px;
     border-radius: 10px;
     border: white 1px solid;
     background-color: blueviolet;
@@ -30,8 +30,8 @@ body{
     margin-left: 70px;
 }
 #nao{
-    height: 40px;
-    width: 70px;
+    height: 50px;
+    width: 80px;
     border-radius: 10px;
     border: white 1px solid;
     background-color: rgb(119, 98, 98);
