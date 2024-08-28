@@ -54,26 +54,29 @@ img{
     top: 530px;
 }
 
-@media screen and (max-width: 300px) {
-    body{
-        position: fixed;
-    }
+@media screen and (max-width: 768px) {
     .containerPC{
-        margin-top: 50px;
-        width: 70%;
+        margin-top: 10vh;
+        width: 80%;
         padding: 5px;
-        height: 700px;
+        height: 80vh;
+
     }
     img{
         width: 100%;
+        height: 50%;
     }
     #nao{
-        top: 537px;
-        margin-left: 100px;
+        top: 68.5vh;
+        margin-left: 150px;
+        width: 100px;
+        height: 70px;
         font-size: 15px;
     }
     #sim{
         margin-left: -70px;
         font-size: 15px;
+        width: 100px;
+        height: 70px;
     }
 }
