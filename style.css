@@ -60,6 +60,7 @@ img{
     }
     .containerPC{
         margin-top: 5vh;
+        margin-bottom: 5vh;
         width: 80%;
         padding: 5px;
         height: 80vh;
@@ -70,7 +71,7 @@ img{
         height: 50%;
     }
     #nao{
-        top: 68.5vh;
+        top: 63.5vh;
         margin-left: 150px;
         width: 100px;
         height: 70px;
