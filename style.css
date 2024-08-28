@@ -59,11 +59,10 @@ img{
         position: fixed;
     }
     .containerPC{
-        margin-top: 10vh;
-        margin-bottom: 10vh;
+        margin-top: 50px;
         width: 70%;
         padding: 5px;
-        height: 80vh;
+        height: 700px;
     }
     img{
         width: 100%;
