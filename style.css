@@ -9,14 +9,27 @@ body{
     background-color: pink;
 }
 
-.container{
-    width: 80%;
-    height: 800px;
+h1{
+    text-align: center;
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+
+.containerPC{
+    width: 500px;
+    margin: auto;
+    height: 500px;
     padding: 20px;
     background: white;
     border-radius: 30px;
     padding-top: 50px;
     margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #sim{
@@ -27,7 +40,7 @@ body{
     background-color: blueviolet;
     color: white;
     cursor: pointer;
-    margin-left: 70px;
+    margin-left: -50px;
 }
 #nao{
     height: 50px;
@@ -37,5 +50,28 @@ body{
     background-color: rgb(119, 98, 98);
     color: white;
     position: absolute;
-    margin-left: 70px;
+    margin-left: 150px;
+    top: 530px;
+}
+
+@media screen and (max-width: 550px) {
+    body{
+        position: fixed;
+    }
+    .containerPC{
+        width: 70%;
+        padding: 5px;
+    }
+    img{
+        width: 100%;
+    }
+    #nao{
+        top: 537px;
+        margin-left: 100px;
+        font-size: 15px;
+    }
+    #sim{
+        margin-left: -70px;
+        font-size: 15px;
+    }
 }
